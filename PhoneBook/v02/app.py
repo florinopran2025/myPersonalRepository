@@ -142,6 +142,12 @@ def optSwitchLanguage(lang):
         return "romanian"
     else:
         return "english"
+# 8 = About App
+def optAbout():
+    file=open(theDir+"readme.txt","r")
+    for line in file:
+        print(line)
+    file.close()
 # WRONG COMMAND
 def optUnknown():
     print ("Nu such option in the menu.😒")
@@ -169,6 +175,9 @@ while gameon:
         continueGame()
     elif opt==7: # switch language
         lang=optSwitchLanguage(lang)
+    elif opt==8: # about app
+        lang=optAbout()
+        continueGame()
     elif opt==0: # exit
         gameon=False    
     else: # unrecognised option
