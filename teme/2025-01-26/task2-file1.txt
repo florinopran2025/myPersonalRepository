@@ -1,5 +1,0 @@
-Number of chars:32
-Number of lines:3
-Number of vowels:10
-Number of consonants:12
-Number of digits:3
