@@ -1,0 +1,1 @@
+This version (v02) is designed with no classes.
