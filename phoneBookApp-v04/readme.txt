@@ -1,1 +1,0 @@
-This version (v03) is designed with classes.
