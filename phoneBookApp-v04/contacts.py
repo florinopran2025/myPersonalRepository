@@ -131,8 +131,7 @@ class Contacts:
         self.optDisplayContacts()
 
     # 4 = ADD CONTACT
-    def addContact(self):
-        """Add a new contact"""
+    def addContact(self):        
         contactName=input("Name:")
         contactPhone=input("Phone:")
         contactEmail=input("Email:")
